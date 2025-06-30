@@ -89,7 +89,7 @@ button:hover {
     position: relative;
 }
 
-#popup {
+.popup {
   position: absolute;
   bottom: 200%;
   background: #4B5865;
@@ -107,6 +107,14 @@ button:hover {
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     color: #AEBCCF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 @media (max-width: 750px) {
@@ -150,7 +158,7 @@ button:hover {
         z-index: 2;
     }
 
-    #popup {
+    .popup {
         position: absolute;
         bottom: -85%;
         right: -134%;
